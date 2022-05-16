@@ -1,11 +1,11 @@
 # AutomationPractice
 Automation Webdriverio Cucumber
 
-Tools/ Technologies used : WebdriverIo and Cucumber, node js, Visual Studio
+**Tools/ Technologies used :** WebdriverIo and Cucumber, node js, Visual Studio
 
-Feature file: The complete funcitonality has been covered in 2 Scenarios with the below breakdown
+**Feature file:** The complete funcitonality has been covered in 2 Scenarios with the below breakdown
 
-Scenario 1:
+**Scenario 1:
 1) Launches the browser and navigats to Automation practice landing page
 2) Clicks on Sign in and navigates to login page
 3) Provides an email address and navigates to Registration page
@@ -14,7 +14,7 @@ Scenario 1:
 6) Verifies that the corerct first name and last name gets displayed.
 7) Logs out and closes the browser
 
-Scenario 2: 
+**Scenario 2: **
 1) Launches the browser and navigats to Automation practice landing page
 2) Clicks on Sign in and navigates to login page
 3) Provides valid creadentials and logs in to the site
@@ -23,17 +23,16 @@ Scenario 2:
 6) On payment details page, validates that the product added in step 4 is displayed.
 7) Logs out and closes the browser
 
-Run: 
+**Run: **
 
 Load the project into Visual studio
 run the command: npx wdio run ./wdio.conf.js
 
-Instructions:
+**Instructions:**
 
-POM has been used to develop the code
-All the pages are available in ../features/pages/*.page.js
+POM has been used to develop the code and All the pages are available in ../features/pages/*.page.js
 Step definition is located @ ../features/step-definitions/all.step.js
 Allure reports will be created under ../features/reports/allure-results
 Screenshots will be available under ../features/reports/screenshots
 
-Any queries: karamrajashekar1401@gmail.com
+**Any queries:** karamrajashekar1401@gmail.com
