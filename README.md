@@ -26,6 +26,8 @@ Automation Webdriverio Cucumber
 **Run: **
 
 Load the project into Visual studio
+Open feature file and change the emailid in username parameter to be unique (ex: change 'sampletest_215@gmail.com' to 'sampletest_216@gmail.com')
+for Scenario to the existing user logs in and we dont have to change any parameters
 run the command: npx wdio run ./wdio.conf.js
 
 **Instructions:**
@@ -33,6 +35,6 @@ run the command: npx wdio run ./wdio.conf.js
 POM has been used to develop the code and All the pages are available in ../features/pages/*.page.js
 Step definition is located @ ../features/step-definitions/all.step.js
 Allure reports will be created under ../features/reports/allure-results
-Screenshots will be available under ../features/reports/screenshots
+Screenshots will be available if there are errors ../features/reports/screenshots
 
 **Any queries:** karamrajashekar1401@gmail.com
